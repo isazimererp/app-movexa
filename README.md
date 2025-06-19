@@ -220,3 +220,6 @@ API REST para gerenciamento de usuários, robôs AGV e ordens de coleta.
 - Para integração, utilize os exemplos de JSON acima em ferramentas como Postman ou no frontend.
 
 ---
+=======
+# app-movexa
+>>>>>>> f84adf582d54a07e89a9433da79c4263a294e214
