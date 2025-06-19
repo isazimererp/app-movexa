@@ -31,8 +31,32 @@ API REST para gerenciamento de usuários, robôs AGV e ordens de coleta.
 ## Como rodar o projeto
 
 1. Clone o repositório.
+git clone https://github.com/isazimererp/app-movexa.git
+cd app-movexa/api
+
 2. Execute `mvn spring-boot:run` ou rode a classe `ApiApplication`.
-3. Acesse a API em `http://localhost:8080`.
+3. Acesse a API no navegador ou Postman `http://localhost:8080`.
+
+4. Console do banco H2
+http://localhost:8080/h2-console
+
+JDBC URL: jdbc:h2:file:./data/sistemadb
+
+Usuário: sa
+
+Senha: (deixa em branco)
+
+
+Se der algum erro de porta ocupada:
+Verifique se a porta 8080 já está em uso.
+
+Altere no arquivo src/main/resources/application.properties:
+
+properties
+Copiar
+Editar
+server.port=8081
+
 
 ---
 
@@ -223,3 +247,4 @@ API REST para gerenciamento de usuários, robôs AGV e ordens de coleta.
 =======
 # app-movexa
 >>>>>>> f84adf582d54a07e89a9433da79c4263a294e214
+s
